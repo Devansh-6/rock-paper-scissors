@@ -12,10 +12,17 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    let humanChoice = prompt("What is your choice?");
-    return humanChoice;
+    return prompt("What is your choice?");
+}
+
+function playRound(humanChoice, computerChoice){
+
 }
 
 
 console.log(getComputerChoice());
 console.log(getHumanChoice());
+
+let humanScore = 0;
+let computerScore = 0;
+
